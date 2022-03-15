@@ -1,0 +1,261 @@
+.navbar-brand{
+    color: blue !important;
+    font-family: monospace;
+    text-shadow: 1px 1px 1px black;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.navbar-brand span{
+    color: lime;
+}
+.nav-link{
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    background-color: rgba(173, 216, 230, 0.747);
+}
+
+.hr1{
+    width: 85%;
+    z-index: 99;
+    position: relative;
+}
+
+/* Jumbotron */
+.home{
+    background: linear-gradient(to bottom, white, lightblue);
+}
+.jumbotron{
+    background-color: transparent !important;
+}
+
+.jumbotron h1{
+    font-size: large;
+    font-weight: bolder;
+}
+.jumbotron p{
+    font-size: medium;
+}
+.col-lg-5{
+    width: 90%;
+    justify-content: center;
+    align-self: center;
+}
+.row .col-lg-5 img{
+    width: 90%;
+    justify-content: center;
+    align-self: center;
+}
+
+/* media object */
+.tentang{
+    background: linear-gradient(to bottom, lightblue, rgb(79, 171, 214));
+}
+.media-body h5{
+    font-size: large;
+}
+.media-body p{
+    font-size: large;
+}
+.media-body{
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px 0.5px black;
+    padding: 20px;
+    opacity: 90%;
+}
+.media img{
+    width: 180px;
+}
+
+.media-body h5{
+    text-decoration: underline;
+    color: greenyellow;
+    font-family: arial;
+}
+
+.media-body p{
+    color: white;
+    font-family: arial;
+}
+
+
+/* visi misi-card */
+.visi-misi .text-center{
+    color: rgb(5, 5, 5);
+}
+
+.visi-misi .card .container{
+    opacity: 90%;
+    padding: 20px;
+}
+
+.visi-misi .card .container .card-body{
+    color: white;
+    font-weight: bolder;
+    font-family: monospace;
+}
+
+.visi-misi .card .container .card-header{
+    background-color: lightskyblue;
+    color: blue;
+    font-family: monospace;
+    font-weight: bold;
+}
+.visi-misi .card .container .card-body{
+    background-color: lightblue;
+}
+.visi-misi .card.text-center{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../assets/marioclouds-bg\ image\ visimisi.gif);
+}
+
+/* services cards */
+.col-sm-4 .card{
+    margin-top: 10px;
+}
+.services .container{
+    padding: 20px;
+}
+
+/* Portfolio */
+.portfolio{
+    margin-top: 120px;
+    background: linear-gradient(to bottom, white, lightblue);
+}
+
+.portfolio h3{
+    font-size: 180%;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 30px;  
+    font-family: monospace;  
+    text-align: center;
+}
+
+.portfolio h3 span{
+    font-weight: 500;
+}
+
+.portfolio .container .row .col-md-5{
+    margin-bottom: 180px;
+}
+
+a.btn.btn-primary.tombol {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+/* footer */
+footer{
+    background-color: midnightblue;
+    color: white;
+    font-family: monospace;
+    font-weight: 500;
+    text-align: center;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    margin-top: 30px;
+}
+
+/* Portfolio-gallery */
+.galery{
+    background: linear-gradient(to left bottom, rgb(121, 206, 202), rgb(64, 64, 124));
+}
+.galery .container .d-flex{
+    padding: 50px;
+    font-weight: bold;
+    color: black;
+    font-family: monospace;
+    font-size: 40px;
+}
+
+/* contact page */
+.form-contact{
+    background: linear-gradient(to right, rgb(123, 219, 104), rgba(5, 53, 184, 0.541));
+    /* height: 120vh; */
+}
+
+.form-row.w-75.m-auto {
+    background-color: rgba(14, 31, 180, 0.5);
+    border: solid 5px rgb(56, 86, 185);
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.form-contact form h3{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.form-contact form .form-row .form-group textarea{
+    padding: 15px;
+    resize: none;
+}
+
+/* media queries */
+@media (min-width: 992px) {
+    .jumbotron h1{
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+    .jumbotron p{
+        font-size: large;
+        font-weight: lighter;
+    }
+    .jumbotron{
+        margin-top: 100px;
+    }
+    .container .row{
+        margin-top: -75px;
+    }
+
+    .row .col-lg-6, .col-lg-5 img{
+        margin-top: 60px; 
+    }
+    .media img{
+        width: 12%
+    }
+    .media{
+        padding: 20px;
+    }
+    .media-body h5{
+        font-size: xx-large;
+    }
+    .media-body p{
+        font-size: x-large;
+    }
+
+    .visi-misi .card.text-center{
+        color: white;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../assets/marioclouds-bg\ image\ visimisi.gif);
+    }
+
+    .portfolio h3{
+        font-size: 42px;
+        font-weight: 200;
+        text-transform: uppercase;
+        margin-top: 30px;  
+        font-family: monospace;  
+    }
+    .form-contact form .form-row .form-group textarea{
+    }
+    .form-contact{
+        background: linear-gradient(to right, rgb(123, 219, 104), rgba(5, 53, 184, 0.541));
+    }
+}
+
+
+@media (min-width: 768px) {
+    .form-contact form .form-row .form-group textarea{
+    }
+}
